@@ -1,6 +1,6 @@
 # Aus Whisky Map
 
-An interactive map of every whisky distillery in Australia — built as a portfolio project by [Wade Nairn](https://wadenairn.dev).
+An interactive map of most whisky distilleries in Australia
 
 **Live site:** [auswhiskymap.com](https://auswhiskymap.com)
 
