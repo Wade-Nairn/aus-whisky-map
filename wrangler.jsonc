@@ -1,5 +1,6 @@
 {
   "name": "aus-whisky-map",
+  "compatibility_date": "2026-05-10",
   "main": ".svelte-kit/cloudflare/_worker.js",
   "assets": {
     "directory": ".svelte-kit/cloudflare",
