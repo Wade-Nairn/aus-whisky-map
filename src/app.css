@@ -1,0 +1,131 @@
+@import 'tailwindcss';
+@import 'maplibre-gl/dist/maplibre-gl.css';
+
+@theme {
+	--color-amber-400: #f59e0b;
+	--color-amber-500: #c8860a;
+	--color-amber-600: #a16207;
+	--color-surface-900: #0d0d0d;
+	--color-surface-800: #141414;
+	--color-surface-700: #1a1a1a;
+	--color-surface-600: #242424;
+	--color-surface-500: #2e2e2e;
+	--color-warm-50: #f5f0e8;
+	--color-warm-200: #c9b99a;
+	--color-warm-400: #9a8060;
+	--font-family-display: 'Playfair Display', Georgia, serif;
+	--font-family-sans: 'Inter', system-ui, sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: #0d0d0d;
+	color: #f5f0e8;
+	font-family: 'Inter', system-ui, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Override maplibre default controls to match our theme */
+.maplibregl-ctrl-group {
+	background: rgba(20, 20, 20, 0.9) !important;
+	border: 1px solid rgba(200, 134, 10, 0.2) !important;
+	backdrop-filter: blur(8px);
+}
+
+.maplibregl-ctrl-group button {
+	color: #f5f0e8 !important;
+}
+
+.maplibregl-ctrl-group button .maplibregl-ctrl-icon {
+	filter: invert(1) opacity(0.8);
+}
+
+.maplibregl-ctrl-group button:hover .maplibregl-ctrl-icon {
+	filter: invert(1) opacity(1);
+}
+
+.maplibregl-ctrl-group button:hover {
+	background: rgba(200, 134, 10, 0.15) !important;
+}
+
+.maplibregl-ctrl-group button + button {
+	border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.maplibregl-ctrl-attrib {
+	background: rgba(13, 13, 13, 0.7) !important;
+	color: rgba(245, 240, 232, 0.4) !important;
+	font-size: 10px !important;
+}
+
+.maplibregl-ctrl-attrib a {
+	color: rgba(200, 134, 10, 0.6) !important;
+}
+
+/* Styled scrollbar for sidebar panels */
+.sidebar-scroll {
+	scrollbar-width: thin;
+	scrollbar-color: #c8860a #141414;
+}
+.sidebar-scroll::-webkit-scrollbar {
+	width: 5px;
+}
+.sidebar-scroll::-webkit-scrollbar-track {
+	background: #141414;
+	border-radius: 10px;
+	margin: 8px 2px;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb {
+	background: #c8860a;
+	border-radius: 10px;
+	border: 1px solid transparent;
+	background-clip: padding-box;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+	background: #f59e0b;
+	background-clip: padding-box;
+}
+
+/* Custom marker styles */
+.distillery-marker {
+	cursor: pointer;
+	transition: transform 0.2s ease;
+	transform-origin: bottom center;
+}
+
+.distillery-marker:hover {
+	transform: scale(1.2);
+}
+
+.distillery-marker.selected {
+	transform: scale(1.3);
+	z-index: 10;
+}
+
+.distillery-marker.selected .marker-pin {
+	filter: drop-shadow(0 0 8px rgba(200, 134, 10, 0.8));
+}
+
+@keyframes pulse-ring {
+	0% { transform: scale(0.8); opacity: 1; }
+	100% { transform: scale(2.2); opacity: 0; }
+}
+
+.pulse-ring {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 16px;
+	height: 16px;
+	margin: -8px 0 0 -8px;
+	border-radius: 50%;
+	background: rgba(200, 134, 10, 0.4);
+	animation: pulse-ring 1.5s ease-out infinite;
+}

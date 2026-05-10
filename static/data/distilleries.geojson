@@ -1,0 +1,853 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.3272, -42.8826] },
+      "properties": {
+        "id": "lark-distillery",
+        "name": "Lark Distillery",
+        "state": "TAS",
+        "region": "Southern Tasmania",
+        "founded": 1992,
+        "website": "https://larkdistillery.com",
+        "description": "Australia's pioneering craft whisky distillery, founded by Bill Lark in 1992 after successfully lobbying to overturn antiquated distilling laws. Lark has been instrumental in establishing Tasmania—and Australia—as a world-class whisky region.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "First licensed Tasmanian distillery since the 1800s"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.4019, -42.8105] },
+      "properties": {
+        "id": "sullivans-cove",
+        "name": "Sullivans Cove Distillery",
+        "state": "TAS",
+        "region": "Southern Tasmania",
+        "founded": 1994,
+        "website": "https://sullivanscove.com",
+        "description": "Home of the world's best single malt. Sullivans Cove French Oak single cask won the World's Best Single Malt at the World Whisky Awards in 2014, putting Australian whisky firmly on the global stage.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "World's Best Single Malt 2014 — World Whisky Awards"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [145.9064, -41.0549] },
+      "properties": {
+        "id": "hellyers-road",
+        "name": "Hellyers Road Distillery",
+        "state": "TAS",
+        "region": "Northern Tasmania",
+        "founded": 1999,
+        "website": "https://hellyersroaddistillery.com.au",
+        "description": "Tasmania's largest whisky distillery, located in Burnie on the northwest coast. Known for producing a diverse range of single malt expressions using Tasmanian barley and pure rainwater from the northwest highlands.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Tasmania's largest volume whisky producer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.1347, -41.4332] },
+      "properties": {
+        "id": "launceston-distillery",
+        "name": "Launceston Distillery",
+        "state": "TAS",
+        "region": "Northern Tasmania",
+        "founded": 2013,
+        "website": "https://launcestondistillery.com",
+        "description": "A boutique distillery in Tasmania's second city, producing small-batch single malt whiskies with a focus on cask innovation and Tasmanian provenance. Their range explores a variety of local and imported wine cask finishes.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Award-winning small-batch cask expressions"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.1855, -42.5241] },
+      "properties": {
+        "id": "old-kempton",
+        "name": "Old Kempton Distillery",
+        "state": "TAS",
+        "region": "Southern Tasmania",
+        "founded": 2014,
+        "website": "https://oldkemptondistillery.com.au",
+        "description": "Situated in the historic midlands town of Kempton, Old Kempton uses estate-grown barley and Tasmanian spring water. Their Redlands Estate single malt whisky reflects the unique terroir of the Tasmanian central midlands.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Estate-grown Tasmanian barley, Redlands brand"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.2294, -42.6284] },
+      "properties": {
+        "id": "shene-estate",
+        "name": "Shene Estate Distillery",
+        "state": "TAS",
+        "region": "Southern Tasmania",
+        "founded": 2014,
+        "website": "https://shene.com.au",
+        "description": "Set on a stunning historic Georgian property at Pontville, Shene Estate produces whisky under the Mackey brand. The estate features beautifully preserved heritage sandstone buildings and a working farm, making it one of Tasmania's most scenic distillery experiences.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Historic Georgian estate, Mackey whisky brand"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.8475, -43.1370] },
+      "properties": {
+        "id": "william-mchenry",
+        "name": "William McHenry & Sons Distillery",
+        "state": "TAS",
+        "region": "Tasman Peninsula",
+        "founded": 2011,
+        "website": "https://mchenrydistillery.com.au",
+        "description": "Perched on the dramatic Tasman Peninsula overlooking the Southern Ocean near Port Arthur, this distillery benefits from pristine ocean breezes and pure rainwater. One of Tasmania's most scenic and remote distillery experiences.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Dramatic oceanfront location near Port Arthur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [146.9530, -42.3827] },
+      "properties": {
+        "id": "nant-distillery",
+        "name": "Nant Distillery",
+        "state": "TAS",
+        "region": "Central Highlands",
+        "founded": 2007,
+        "website": "https://nant.com.au",
+        "description": "Located in the Central Highlands at Bothwell, Nant operates from a historic 1821 stone mill. The distillery uses a traditional pot still and matures its whisky in small American and French oak casks, producing rich and sherried expressions.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Historic 1821 stone mill, Central Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.0667, -42.9153] },
+      "properties": {
+        "id": "overeem",
+        "name": "Old Hobart Distillery (Overeem)",
+        "state": "TAS",
+        "region": "Southern Tasmania",
+        "founded": 2007,
+        "website": "https://oldhobart.com.au",
+        "description": "Founded by Casey Overeem, one of Tasmania's original craft distillers. The Overeem single malt expressions are known for their rich sherry and port cask maturation, producing some of Tasmania's most sought-after limited releases.",
+        "styles": ["Single Malt"],
+        "visitor_centre": false,
+        "notable": "Highly sought-after sherry and port cask expressions"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [144.9440, -37.8499] },
+      "properties": {
+        "id": "starward",
+        "name": "Starward Whisky",
+        "state": "VIC",
+        "region": "Melbourne",
+        "founded": 2007,
+        "website": "https://starward.com.au",
+        "description": "Melbourne's most celebrated whisky distillery, matured entirely in Australian red wine barrels from the Barossa and Yarra valleys. Starward's innovative wine cask maturation gives their whisky a distinctly Australian character that has captivated drinkers worldwide.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Matured in Australian red wine barrels"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [145.0878, -37.8007] },
+      "properties": {
+        "id": "bakery-hill",
+        "name": "Bakery Hill Distillery",
+        "state": "VIC",
+        "region": "Melbourne",
+        "founded": 1999,
+        "website": "https://bakeryhilldistillery.com.au",
+        "description": "One of Victoria's pioneering craft distilleries, Bakery Hill has been producing highly regarded single malt expressions for over two decades. Their double wood and peated expressions have earned consistent international recognition.",
+        "styles": ["Single Malt", "Peated"],
+        "visitor_centre": false,
+        "notable": "One of Victoria's earliest craft distilleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [144.9705, -38.3433] },
+      "properties": {
+        "id": "bass-and-flinders",
+        "name": "Bass & Flinders Distillery",
+        "state": "VIC",
+        "region": "Mornington Peninsula",
+        "founded": 2009,
+        "website": "https://bassandflinders.com.au",
+        "description": "Located in the heart of Mornington Peninsula wine country at Dromana, Bass & Flinders crafts unique whisky-influenced spirits using local pinot noir and chardonnay casks. A truly wine-country distillery experience.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Mornington Peninsula wine country location"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [143.0003, -38.4849] },
+      "properties": {
+        "id": "timboon",
+        "name": "Timboon Railway Shed Distillery",
+        "state": "VIC",
+        "region": "Great Ocean Road",
+        "founded": 2007,
+        "website": "https://timboonrailwayshed.com",
+        "description": "Housed in a beautifully restored heritage railway shed in the Great Ocean Road hinterland, Timboon produces single malt whisky from locally grown barley. The distillery's rustic charm and regional setting make it a favourite destination.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Restored heritage railway shed venue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [151.2029, -33.9177] },
+      "properties": {
+        "id": "archie-rose",
+        "name": "Archie Rose Distilling Co.",
+        "state": "NSW",
+        "region": "Sydney",
+        "founded": 2014,
+        "website": "https://archierose.com.au",
+        "description": "Sydney's first distillery in over 160 years, Archie Rose has rapidly become one of Australia's most acclaimed producers. Their multi-award-winning White Rye and single malt expressions showcase the best of contemporary Australian craft distilling.",
+        "styles": ["Single Malt", "Rye", "White Rye"],
+        "visitor_centre": true,
+        "notable": "Sydney's first distillery in 160 years, multiple world awards"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [146.3888, -35.9985] },
+      "properties": {
+        "id": "corowa",
+        "name": "Corowa Distilling Co.",
+        "state": "NSW",
+        "region": "Riverina",
+        "founded": 2015,
+        "website": "https://corowadistillingco.com.au",
+        "description": "Located in the historic border town of Corowa — once Australia's whisky capital — this distillery honours the region's rich agricultural heritage using locally grown barley and wheat in their grain and single malt expressions.",
+        "styles": ["Single Malt", "Blended Grain"],
+        "visitor_centre": true,
+        "notable": "Reviving Corowa's historical whisky-making legacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [149.1228, -31.8294] },
+      "properties": {
+        "id": "black-gate",
+        "name": "Black Gate Distillery",
+        "state": "NSW",
+        "region": "Central Western NSW",
+        "founded": 2012,
+        "website": "https://blackgatedistillery.com.au",
+        "description": "A true paddock-to-glass farm distillery in the Central West, Black Gate grows its own barley and hops on-property. Their estate-grown approach produces distinctive expressions that reflect the unique terroir of rural New South Wales.",
+        "styles": ["Single Malt"],
+        "visitor_centre": false,
+        "notable": "Paddock-to-glass farm distillery, estate-grown barley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [117.8841, -35.0228] },
+      "properties": {
+        "id": "limeburners",
+        "name": "Limeburners (Great Southern Distilling Co.)",
+        "state": "WA",
+        "region": "Great Southern",
+        "founded": 2004,
+        "website": "https://distillery.com.au",
+        "description": "Western Australia's most awarded distillery, based in the historic port city of Albany. Limeburners single malt is matured in the cool Great Southern climate, producing elegant and complex expressions with consistent international accolades.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "WA's most awarded distillery, Albany Great Southern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.8617, -31.9905] },
+      "properties": {
+        "id": "whipper-snapper",
+        "name": "Whipper Snapper Distillery",
+        "state": "WA",
+        "region": "Perth",
+        "founded": 2013,
+        "website": "https://whippersnapperdistillery.com",
+        "description": "Perth's urban craft distillery, producing Upshot Australian whisky. Located in the city's Burswood precinct, Whipper Snapper is known for approachable and locally-inspired expressions that have introduced a new generation to Australian whisky.",
+        "styles": ["Blended Malt"],
+        "visitor_centre": true,
+        "notable": "Perth's urban whisky distillery, Upshot brand"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.8683, -35.0542] },
+      "properties": {
+        "id": "adelaide-hills",
+        "name": "Adelaide Hills Distillery",
+        "state": "SA",
+        "region": "Adelaide Hills",
+        "founded": 2014,
+        "website": "https://adelaidehillsdistillery.com.au",
+        "description": "Set in the cool hills above Adelaide, producing 78 Degrees whisky alongside their acclaimed gins. The Adelaide Hills' cool climate and pristine water source create ideal conditions for maturation, yielding expressive and food-friendly whiskies.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "78 Degrees whisky brand, cool climate maturation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.5920, -35.2137] },
+      "properties": {
+        "id": "fleurieu",
+        "name": "Fleurieu Spirits",
+        "state": "SA",
+        "region": "Fleurieu Peninsula",
+        "founded": 2014,
+        "website": "https://fleurieuSpirits.com.au",
+        "description": "A small-batch distillery surrounded by McLaren Vale wine country on the Fleurieu Peninsula. Their Collaboration series uses locally sourced wine barrels for unique cask finishes that showcase the best of South Australian terroir.",
+        "styles": ["Single Malt"],
+        "visitor_centre": false,
+        "notable": "Wine country cask collaboration series"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [145.408, -17.138] },
+      "properties": {
+        "id": "mt-uncle",
+        "name": "Mt Uncle Distillery",
+        "state": "QLD",
+        "region": "Atherton Tablelands",
+        "founded": 2001,
+        "website": "https://www.mtuncle.com",
+        "description": "One of Australia's oldest craft distilleries, Mt Uncle has been producing spirits from the lush Atherton Tablelands near Cairns since 2001. Head distiller Mark Watkins uses natural spring water and locally sourced ingredients across a range that includes the Watkins Single Malt Whisky, plus rum, gin, and agave spirit — all aged in their on-site barrel room in the tropical highlands climate.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "One of Australia's oldest craft distilleries (est. 2001); tropical highlands maturation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.0814, -26.3939] },
+      "properties": {
+        "id": "noosa-heads",
+        "name": "Noosa Heads Distillery",
+        "state": "QLD",
+        "region": "Sunshine Coast",
+        "founded": 2018,
+        "website": "https://noosaheadsdistillery.com.au",
+        "description": "Queensland's sunshine and warm climate create a bold and fast-maturing whisky character at Noosa Heads Distillery. Their expressions reflect the tropical influence of the Sunshine Coast, with rich and fruity profiles unlike any other Australian whisky.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Tropical climate maturation, distinctly Queensland character"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [149.8093, -36.6748] },
+      "properties": {
+        "id": "backwoods",
+        "name": "Backwoods Distilling Co.",
+        "state": "NSW",
+        "region": "Bega Valley",
+        "founded": 2017,
+        "website": "https://backwoodsdistilling.com.au",
+        "description": "Nestled in the Bega Valley on the NSW far south coast, Backwoods produces whisky inspired by wild and remote places. Their range draws on Australian native botanicals and local agricultural ingredients for a distinctly regional character.",
+        "styles": ["Single Malt", "Blended Malt"],
+        "visitor_centre": false,
+        "notable": "Australian native botanical influence"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.367, -42.302] },
+      "properties": {
+        "id": "callington-mill",
+        "name": "Callington Mill Distillery",
+        "state": "TAS",
+        "region": "Central Highlands",
+        "founded": 2020,
+        "website": "https://callingtonmilldistillery.com",
+        "description": "Housed in a beautifully restored historic mill in Oatlands — Tasmania's best-preserved Georgian village — Callington Mill was established with the close involvement of Bill Lark. Their single malt expressions combine historical provenance with modern distilling craft.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Historic Oatlands mill, established with Bill Lark's guidance"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.214, -42.528] },
+      "properties": {
+        "id": "belgrove",
+        "name": "Belgrove Distillery",
+        "state": "TAS",
+        "region": "Southern Tasmania",
+        "founded": 2015,
+        "website": "https://belgrovedistillery.com.au",
+        "description": "Founded by sixth-generation Tasmanian farmer Peter Bignell, Belgrove is Australia's only paddock-to-bottle rye distillery. Peter grows his own ryecorn, built his own copper pot still, and runs the distillery on biofuel made from used cooking oil. His Peated Rye won Southern Hemisphere Whisky of the Year in 2019.",
+        "styles": ["Rye", "Peated Rye"],
+        "visitor_centre": false,
+        "notable": "Australia's only paddock-to-bottle rye; world's only biofuel-powered distillery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.170, -41.567] },
+      "properties": {
+        "id": "adams-distillery",
+        "name": "Adams Distillery",
+        "state": "TAS",
+        "region": "Northern Tasmania",
+        "founded": 2017,
+        "website": "https://www.adamsdistillery.com.au",
+        "description": "Set on the Glen Ireh Estate just 15 minutes from Launceston, Adams Distillery produces award-winning Tasmanian single malt whisky alongside boutique gin. A smaller, family-run operation that has built a strong following for its carefully crafted expressions.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Award-winning northern Tasmanian single malt, Glen Ireh Estate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.284, -41.443] },
+      "properties": {
+        "id": "corra-linn",
+        "name": "Corra Linn Distillery",
+        "state": "TAS",
+        "region": "Northern Tasmania",
+        "founded": 2016,
+        "website": "https://www.corralinndistillery.com.au",
+        "description": "Perched in Relbia overlooking the North Esk River valley outside Launceston, Corra Linn draws on pristine mountain water from the Tasmanian highlands. Their single malt is known for a citrus-forward character and well-spiced finish that sets it apart from the heavier port-cask southern Tasmanian style.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Citrus-forward northern Tasmanian style, North Esk River valley location"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.454, -42.759] },
+      "properties": {
+        "id": "killara",
+        "name": "Killara Distillery",
+        "state": "TAS",
+        "region": "Southern Tasmania",
+        "founded": 2019,
+        "website": "https://killaradistillery.com",
+        "description": "Founded by Kristy Booth-Lark — daughter of Bill Lark — on a property in the Coal River Valley, Killara is one of very few distilleries in the world owned and operated by a woman. Kristy brings nearly two decades of industry experience and a distinctly personal approach to her single malt expressions.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Founded by Kristy Booth-Lark, daughter of Bill Lark; female-owned and operated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [148.274, -42.543] },
+      "properties": {
+        "id": "spring-bay",
+        "name": "Spring Bay Distillery",
+        "state": "TAS",
+        "region": "East Coast Tasmania",
+        "founded": 2015,
+        "website": "https://springbaydistillery.com.au",
+        "description": "Positioned on Tasmania's pristine east coast at Spring Beach, Spring Bay Distillery takes full advantage of the region's clean sea air, coastal character, and pure rainwater. Their single malt expressions have a freshness and maritime quality unique to the east coast microclimate.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Tasmania's east coast maritime character, Spring Beach location"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [148.308, -41.874] },
+      "properties": {
+        "id": "waubs-harbour",
+        "name": "Waubs Harbour Distillery",
+        "state": "TAS",
+        "region": "East Coast Tasmania",
+        "founded": 2022,
+        "website": "https://waubsharbour.com.au",
+        "description": "Set in a converted oyster hatchery on the rocks at Bicheno on Tasmania's east coast, Waubs Harbour is one of Australia's most dramatic distillery settings. Despite being one of the newest, they won the Small Batch Single Malt category at the World Whiskies Awards 2024 just ten months after first release.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "World Whiskies Award winner 2024, just 10 months after first release"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.107, -43.149] },
+      "properties": {
+        "id": "hartshorn",
+        "name": "Hartshorn Distillery",
+        "state": "TAS",
+        "region": "Southern Tasmania",
+        "founded": 2016,
+        "website": "https://hartshorndistillery.com.au",
+        "description": "An award-winning micro-distillery in Birchs Bay south of Hobart, Hartshorn is famous for distilling spirits from sheep whey — a world first. Their Sheep Whey Vodka won World's Best Vodka in 2018. They also produce a distinctive whey-based spirit alongside gin featuring native Tasmanian botanicals.",
+        "styles": ["Whey Spirit", "Gin"],
+        "visitor_centre": true,
+        "notable": "World's first sheep whey spirits; World's Best Vodka 2018"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [145.358, -37.537] },
+      "properties": {
+        "id": "kinglake",
+        "name": "Kinglake Distillery",
+        "state": "VIC",
+        "region": "Melbourne Ranges",
+        "founded": 2018,
+        "website": "https://kinglakedistillery.com.au",
+        "description": "An off-grid family distillery north-east of Melbourne in the Kinglake ranges, producing Australia's only certified carbon-neutral whisky. Founded by Sam Lowe and Chantal Daniels, Kinglake uses natural spring water from the surrounding bush and has rapidly built a reputation for distinctive, high-quality single malt.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Australia's only certified carbon-neutral whisky; fully off-grid distillery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [144.959, -37.769] },
+      "properties": {
+        "id": "the-gospel",
+        "name": "The Gospel Distillers",
+        "state": "VIC",
+        "region": "Melbourne",
+        "founded": 2019,
+        "website": "https://www.thegospelwhiskey.com",
+        "description": "Australia's only dedicated rye whiskey distillery, based in Brunswick, Melbourne. The Gospel produces 100% Australian unmalted rye sourced from a single farmer in the Murray Mallee region of South Australia. Their Solera-aged rye has attracted international attention for bringing a genuinely American-inspired style to Australian craft spirits.",
+        "styles": ["Rye", "Solera Rye"],
+        "visitor_centre": true,
+        "notable": "Australia's only dedicated rye whiskey distillery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [145.169, -38.221] },
+      "properties": {
+        "id": "chiefs-son",
+        "name": "Chief's Son Distillery",
+        "state": "VIC",
+        "region": "Mornington Peninsula",
+        "founded": 2014,
+        "website": "https://www.chiefsson.com.au",
+        "description": "A family-owned small batch distillery in Somerville on the Mornington Peninsula, Chief's Son is driven by a generational love of whisky passed down through the founder's family. They produce a range of hand-crafted single malts — including peated, unpeated, and cask expression releases — that have won medals at the World Whiskies Awards and San Francisco World Spirits Competition.",
+        "styles": ["Single Malt", "Peated"],
+        "visitor_centre": true,
+        "notable": "Multi-award winner including World Whiskies Awards; family-owned Mornington Peninsula distillery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [145.732, -38.452] },
+      "properties": {
+        "id": "loch-brewery",
+        "name": "Loch Brewery & Distillery",
+        "state": "VIC",
+        "region": "Gippsland",
+        "founded": 2014,
+        "website": "https://lochbrewery.com.au",
+        "description": "Located in the Gippsland township of Loch, this combined brewery and distillery produces single malt whisky alongside craft beer. The cool Gippsland climate and access to local agricultural produce give their expressions a regional character distinct from the Melbourne urban style.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Gippsland's pioneering combined brewery and distillery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.614, -28.647] },
+      "properties": {
+        "id": "highwayman",
+        "name": "Highwayman Whisky",
+        "state": "NSW",
+        "region": "Northern Rivers",
+        "founded": 2019,
+        "website": "https://highwayman-whisky.com",
+        "description": "Founded by former whisky ambassador Dan Woolley after years spent at distilleries across Scotland, Kentucky, Tasmania, and Japan, Highwayman produces small-batch single malt from Byron Bay. The project is described as 'the liquid library of Dan's extensive global whisky adventures' — released in tiny batches of around 150 bottles, experimenting with Pedro Ximénez, Apera, Tawny, French oak, and bourbon casks.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Founded by a whisky ambassador; ultra-small batch releases of ~150 bottles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [153.546, -28.631] },
+      "properties": {
+        "id": "cape-byron",
+        "name": "Cape Byron Distillery",
+        "state": "NSW",
+        "region": "Northern Rivers",
+        "founded": 2019,
+        "website": "https://capebyrondistillery.com",
+        "description": "Nestled in coastal rainforest at McLeods Shoot in the Byron Bay hinterland, Cape Byron was co-founded by Scottish Master Distiller Jim McEwan and Byron local Eddie Brook. Australia's only B-Corp certified whisky distillery, they produce slow double-distilled single malt matured in the subtropical coastal climate — and were crowned Australia's #1 whisky at a national competition.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Co-founded by legendary Scottish distiller Jim McEwan; Australia's only B-Corp certified whisky"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [128.741, -15.776] },
+      "properties": {
+        "id": "hoochery",
+        "name": "Hoochery Distillery",
+        "state": "WA",
+        "region": "Kimberley",
+        "founded": 1996,
+        "website": "https://hoochery.com.au",
+        "description": "Australia's most remote whisky producer, operating from Kununurra in the Kimberley region of northern WA. The Hoochery produces Ord River Whisky matured in the extreme tropical heat — temperatures that accelerate spirit-wood interaction dramatically compared to southern Australia. A genuinely unique regional expression.",
+        "styles": ["Single Malt", "Grain"],
+        "visitor_centre": true,
+        "notable": "Australia's most northerly and remote whisky; tropical Kimberley maturation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [146.712, -42.480] },
+      "properties": {
+        "id": "lawrenny-estate",
+        "name": "Lawrenny Estate Distillery",
+        "state": "TAS",
+        "region": "Central Highlands",
+        "founded": 2017,
+        "website": "https://lawrenny.com.au",
+        "description": "Set on a historic estate dating to the early 1800s beside the River Derwent near Ouse, Lawrenny is one of Tasmania's most scenic distilleries. Head distiller Joe Dinsmoor trained at Lark and Archie Rose before returning to Tasmania to build something with genuine estate provenance — the long-term plan is paddock-to-bottle whisky using barley grown on-property.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Historic 1800s estate; estate-grown barley program underway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.291, -42.840] },
+      "properties": {
+        "id": "hobart-whisky",
+        "name": "Hobart Whisky",
+        "state": "TAS",
+        "region": "Southern Tasmania",
+        "founded": 2014,
+        "website": "https://hobartwhisky.com.au",
+        "description": "Operating from a converted industrial warehouse in Moonah, Hobart, this distillery takes a deliberately eclectic approach to maturation — working across ex-bourbon, tawny, apera, sherry, pinot noir, rum, stout, and even maple syrup casks. The result is a range that deliberately runs counter to the Tasmanian mainstream, prioritising experimentation over house style.",
+        "styles": ["Single Malt"],
+        "visitor_centre": false,
+        "notable": "Highly experimental cask program; deliberately counter to Tasmanian mainstream"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [146.461, -36.052] },
+      "properties": {
+        "id": "morris-whisky",
+        "name": "Morris Whisky",
+        "state": "VIC",
+        "region": "Rutherglen",
+        "founded": 2016,
+        "website": "https://morriswines.com",
+        "description": "One of Australia's most historically significant whisky operations, Morris combines whisky production with fortified wine heritage dating to 1859. Using two restored 1930s copper pot stills and ex-fortified wine casks from Barossa and Coonawarra, their expressions — including Muscat Barrel and Smoked Muscat — are unique to Australian whisky. Scottish Master Distiller John McDougall (formerly Balvenie and Laphroaig) oversees production.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "1859 heritage site; ex-muscat cask maturation; Master Distiller from Balvenie and Laphroaig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [150.314, -34.613] },
+      "properties": {
+        "id": "joadja",
+        "name": "Joadja Distillery",
+        "state": "NSW",
+        "region": "Southern Highlands",
+        "founded": 2014,
+        "website": "https://joadja.com",
+        "description": "Built on the site of a historic 1870s Scottish mining town in the NSW Southern Highlands, Joadja was established with the guidance of Bill Lark by Spanish-born owners Valero and Elisa Jimenez. They mature their single malt exclusively in Spanish sherry casks — oloroso, pedro ximenez, amontillado, palo cortado — and since 2017 have been growing their own barley on-site for a true paddock-to-bottle expression.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Historic Scottish mining village setting; Spanish sherry cask specialists; estate-grown barley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.556, -34.906] },
+      "properties": {
+        "id": "tin-shed",
+        "name": "Tin Shed Distilling Co.",
+        "state": "SA",
+        "region": "Adelaide",
+        "founded": 2013,
+        "website": "https://tinshed.com.au",
+        "description": "One of South Australia's earliest craft whisky producers, Tin Shed emerged from the ashes of Southern Coast Distillers and produces the acclaimed Iniquity Single Malt range. Located in Welland, Adelaide, they use Victorian and SA barley — some smoked with local Mallee root — across a range of cask finishes including ex-tawny, apera, bourbon, red wine, and virgin oak.",
+        "styles": ["Single Malt", "Peated"],
+        "visitor_centre": false,
+        "notable": "Iniquity Single Malt; Mallee root smoked barley; one of SA's pioneering craft distilleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.752, -34.172] },
+      "properties": {
+        "id": "st-agnes",
+        "name": "St Agnes Distillery (Camborne)",
+        "state": "SA",
+        "region": "Riverland",
+        "founded": 2015,
+        "website": "https://angove.com.au",
+        "description": "Australia's oldest continuously operating family-owned distillery, with origins dating to 1911. Fifth-generation winemaker Richard Angove launched Camborne single malt whisky in 2024, matured in casks on site in Renmark alongside the family's celebrated brandy production. The 1911 H Jennings pot stills are among the oldest in continuous distilling use in Australia.",
+        "styles": ["Single Malt"],
+        "visitor_centre": false,
+        "notable": "Australia's oldest family distillery (est. 1911); Camborne whisky brand launched 2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [148.091, -39.984] },
+      "properties": {
+        "id": "furneaux",
+        "name": "Furneaux Distillery",
+        "state": "TAS",
+        "region": "Flinders Island",
+        "founded": 2018,
+        "website": "https://furneauxdistillery.com.au",
+        "description": "Tasmania's most remote distillery, located at Whitemark on Flinders Island in Bass Strait. Furneaux produces heavily peated single malt — described as 'Australia's answer to Islay' — smoking the malt on the island before fermenting at Launceston Distillery and distilling back at Furneaux. The remote island climate, pristine air, and pure water create a genuinely unique maturation environment.",
+        "styles": ["Peated Single Malt"],
+        "visitor_centre": false,
+        "notable": "Australia's most remote distillery; heavily peated Islay-style from Flinders Island"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.762, -34.974] },
+      "properties": {
+        "id": "5nines",
+        "name": "5Nines Distilling",
+        "state": "SA",
+        "region": "Adelaide Hills",
+        "founded": 2016,
+        "website": "https://5ninesdistilling.com.au",
+        "description": "A meticulous small-batch distillery in the Adelaide Hills run by David Pearse and Steven Griguol, who designed and built their own 1000-litre pot still after facing a two-year wait from commercial manufacturers. Known for exceptional traceability — every batch comes with detailed notes on malt origin, fermentation, yeast, and cooperage. They source from a specialist local maltster working on heritage barley breeding programs.",
+        "styles": ["Single Malt", "Peated"],
+        "visitor_centre": false,
+        "notable": "Self-built pot still; exceptional production transparency and traceability"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.293, -42.842] },
+      "properties": {
+        "id": "taylor-and-smith",
+        "name": "Taylor & Smith Distilling Co.",
+        "state": "TAS",
+        "region": "Southern Tasmania",
+        "founded": 2017,
+        "website": "https://taylorandsmith.com.au",
+        "description": "A creative micro-distillery run by artists Natalie Smith (writer) and Ben Taylor (painter) in Moonah, Hobart. Their direct-fired copper pot still produces small-batch single malt matured across an eclectic range of casks including ex-apera, tawny, bourbon, pedro ximenez, pinot noir, and Australian dessert wine. The distillery's artistic sensibility extends to its collaborations with Tasmanian artists and writers.",
+        "styles": ["Single Malt"],
+        "visitor_centre": false,
+        "notable": "Artist-run distillery; direct-fired copper pot still; eclectic cask program"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.001, -34.469] },
+      "properties": {
+        "id": "barossa-distilling",
+        "name": "Barossa Distilling Co.",
+        "state": "SA",
+        "region": "Barossa Valley",
+        "founded": 2016,
+        "website": "https://barossadistilling.com",
+        "description": "Housed in the historic Old Penfolds Distillery building at Nuriootpa in the heart of the Barossa Valley, Barossa Distilling Co. produces the Gallus single malt whisky — matured for six years in ex-bourbon and tawny casks, then finished in local Barossa muscat barrels. The limited-release Gallus expressions reflect the full depth of the Barossa's wine cask heritage.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Gallus single malt; historic Old Penfolds Distillery building; Barossa muscat cask finishing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [147.399, -41.164] },
+      "properties": {
+        "id": "fannys-bay",
+        "name": "Fannys Bay Distillery",
+        "state": "TAS",
+        "region": "Northern Tasmania",
+        "founded": 2014,
+        "website": "https://fannysbaydistillery.com.au",
+        "description": "A windswept coastal micro-distillery 150 metres from Bass Strait at Lulworth on Tasmania's north coast. Founders Mathew and Julie Cooper mature their single malt in 20-litre French oak casks using rainwater naturally rich in sea salt and magnesium — giving their whisky a distinctive maritime minerality unlike anything made inland.",
+        "styles": ["Single Malt"],
+        "visitor_centre": false,
+        "notable": "150m from Bass Strait; seawater-influenced rainwater gives unique maritime mineral character"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [148.232, -41.624] },
+      "properties": {
+        "id": "iron-house",
+        "name": "Iron House Distillery",
+        "state": "TAS",
+        "region": "East Coast Tasmania",
+        "founded": 2015,
+        "website": "https://www.ironhouse.com.au",
+        "description": "A family-owned brewery, distillery, and vineyard on Tasmania's stunning east coast at Ironhouse Point, perched above the Tasman Sea. Their Tasman Whisky is produced in bourbon, port, and sherry cask expressions, drawing on the coastal microclimate and pure local water. The operation combines three crafts — brewing, winemaking, and distilling — on one extraordinary clifftop site.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Clifftop Tasman Sea location; combined brewery, distillery and vineyard; Tasman Whisky brand"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.045, -34.499] },
+      "properties": {
+        "id": "smiths-angaston",
+        "name": "Smith's Angaston (Yalumba)",
+        "state": "SA",
+        "region": "Barossa Valley",
+        "founded": 1997,
+        "website": "https://www.yalumba.com",
+        "description": "Australia's most historic whisky operation, produced at the Yalumba winery in Angaston using a 1908 vintage copper pot still. The Smith family began distilling single malt in 1997, with subsequent distillations in 1998, 2000, 2011, 2014, 2017, 2021, and 2024. Matured in Yalumba's own muscat casks, the result is unlike anything else in Australian whisky — wine estate provenance in the purest sense.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "1908 vintage copper pot still; Australia's most historic distillery; Barossa muscat cask maturation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [143.851, -37.567] },
+      "properties": {
+        "id": "kilderkin",
+        "name": "Kilderkin Distillery",
+        "state": "VIC",
+        "region": "Ballarat",
+        "founded": 2016,
+        "website": "https://kilderkindistillery.com.au",
+        "description": "An artisan distillery housed in a refurbished warehouse in central Ballarat, continuing a distilling tradition that dates to the gold rush era. Kilderkin produces single malt whisky alongside their award-winning Larrikin gin, drawing on the cool climate and quality water of the central Victorian highlands.",
+        "styles": ["Single Malt"],
+        "visitor_centre": true,
+        "notable": "Continues Ballarat's gold rush-era distilling legacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.751, -34.174] },
+      "properties": {
+        "id": "23rd-street",
+        "name": "23rd Street Distillery",
+        "state": "SA",
+        "region": "Riverland",
+        "founded": 2015,
+        "website": "https://23rdstreetdistillery.com.au",
+        "description": "Set in Renmark in the heart of SA's Riverland wine country, 23rd Street produces whisky alongside brandy and gin using locally grown grains and fruit. The Riverland's warm climate and access to exceptional wine barrels from surrounding vineyards give their expressions a rich, wine-country character.",
+        "styles": ["Single Malt", "Blended"],
+        "visitor_centre": true,
+        "notable": "Riverland wine country provenance; broad range from whisky to brandy and gin"
+      }
+    }
+  ]
+}

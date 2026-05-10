@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0d0d0d"/>
+
+  <!-- Subtle amber gradient glow -->
+  <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+    <stop offset="0%" stop-color="#c8860a" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#0d0d0d" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Pin icon -->
+  <g transform="translate(560, 180)">
+    <path d="M40 0C17.9 0 0 17.9 0 40c0 30 40 80 40 80s40-50 40-80C80 17.9 62.1 0 40 0z" fill="#c8860a"/>
+    <circle cx="40" cy="40" r="15" fill="#0d0d0d"/>
+  </g>
+
+  <!-- Title -->
+  <text
+    x="600"
+    y="360"
+    text-anchor="middle"
+    font-family="Georgia, serif"
+    font-size="80"
+    font-weight="700"
+    fill="#f5f0e8"
+    letter-spacing="-1"
+  >Aus Whisky Map</text>
+
+  <!-- Arc underline -->
+  <path d="M 280,385 Q 600,415 920,385" fill="none" stroke="#c8860a" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Subtitle -->
+  <text
+    x="600"
+    y="450"
+    text-anchor="middle"
+    font-family="Georgia, serif"
+    font-size="28"
+    fill="#9a8060"
+    letter-spacing="2"
+  >Every Australian whisky distillery, on one map.</text>
+
+  <!-- Bottom border -->
+  <rect x="0" y="610" width="1200" height="4" fill="#c8860a" opacity="0.6"/>
+</svg>
