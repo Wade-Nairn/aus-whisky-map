@@ -1,12 +1,11 @@
 <script>
 	import { onMount } from 'svelte';
-	import { selectedDistillery, activeFilter, sidebarOpen } from '$lib/stores/map.js';
+	import maplibregl from 'maplibre-gl';
+	import { selectedDistillery, activeFilter, sidebarOpen, mapReady } from '$lib/stores/map.js';
 
 	let { distilleries = [] } = $props();
 
 	let map;
-	let mapgl;
-	let mapReady = $state(false);
 	let prevFilter = 'ALL';
 
 	const SIDEBAR_WIDTH = 380;
@@ -47,10 +46,8 @@
 		features: distilleries
 	};
 
-	onMount(async () => {
-		mapgl = (await import('maplibre-gl')).default;
-
-		const m = new mapgl.Map({
+	onMount(() => {
+		const m = new maplibregl.Map({
 			container: 'map',
 			style: 'https://tiles.openfreemap.org/styles/liberty',
 			center: [134, -28],
@@ -60,69 +57,59 @@
 			attributionControl: false
 		});
 
-		m.addControl(new mapgl.NavigationControl(), 'bottom-right');
+		m.addControl(new maplibregl.NavigationControl(), 'bottom-right');
 
 		m.on('load', () => {
-			// Load distillery pin image
-			const img = new Image(30, 30);
-			img.onload = () => {
-				m.addImage('pin', img);
+			m.addSource('distilleries', {
+				type: 'geojson',
+				data: geojson
+			});
 
-				m.addSource('distilleries', {
-					type: 'geojson',
-					data: geojson
-				});
+			m.addLayer({
+				id: 'distillery-pins',
+				type: 'circle',
+				source: 'distilleries',
+				paint: {
+					'circle-radius': 10,
+					'circle-color': '#c8860a',
+					'circle-stroke-color': '#0d0d0d',
+					'circle-stroke-width': 2
+				}
+			});
 
-				// Circle layer — same coordinate system as tiles, guaranteed correct
-				m.addLayer({
-					id: 'distillery-pins',
-					type: 'circle',
-					source: 'distilleries',
-					paint: {
-						'circle-radius': 10,
-						'circle-color': '#c8860a',
-						'circle-stroke-color': '#0d0d0d',
-						'circle-stroke-width': 2
-					}
-				});
+			m.addLayer({
+				id: 'distillery-selected',
+				type: 'circle',
+				source: 'distilleries',
+				filter: ['==', ['get', 'id'], ''],
+				paint: {
+					'circle-radius': 16,
+					'circle-color': 'transparent',
+					'circle-stroke-color': '#f59e0b',
+					'circle-stroke-width': 3
+				}
+			});
 
-				// Selected highlight ring
-				m.addLayer({
-					id: 'distillery-selected',
-					type: 'circle',
-					source: 'distilleries',
-					filter: ['==', ['get', 'id'], ''],
-					paint: {
-						'circle-radius': 16,
-						'circle-color': 'transparent',
-						'circle-stroke-color': '#f59e0b',
-						'circle-stroke-width': 3
-					}
-				});
+			m.on('click', 'distillery-pins', (e) => {
+				const feature = e.features[0];
+				const distillery = distilleries.find(
+					(d) => d.properties.id === feature.properties.id
+				);
+				if (distillery) {
+					selectedDistillery.set(distillery);
+					sidebarOpen.set(true);
+				}
+			});
 
-				m.on('click', 'distillery-pins', (e) => {
-					const feature = e.features[0];
-					const distillery = distilleries.find(
-						(d) => d.properties.id === feature.properties.id
-					);
-					if (distillery) {
-						selectedDistillery.set(distillery);
-						sidebarOpen.set(true);
-					}
-				});
+			m.on('mouseenter', 'distillery-pins', () => {
+				m.getCanvas().style.cursor = 'pointer';
+			});
+			m.on('mouseleave', 'distillery-pins', () => {
+				m.getCanvas().style.cursor = '';
+			});
 
-				m.on('mouseenter', 'distillery-pins', () => {
-					m.getCanvas().style.cursor = 'pointer';
-				});
-				m.on('mouseleave', 'distillery-pins', () => {
-					m.getCanvas().style.cursor = '';
-				});
-
-				map = m;
-				mapReady = true;
-			};
-			img.src =
-				"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3E%3C/svg%3E";
+			map = m;
+			mapReady.set(true);
 		});
 
 		m.on('click', (e) => {
@@ -134,7 +121,7 @@
 	});
 
 	$effect(() => {
-		if (!mapReady) return;
+		if (!$mapReady) return;
 
 		const sel = $selectedDistillery;
 		const filter = $activeFilter;
@@ -172,4 +159,45 @@
 	});
 </script>
 
+<svelte:head>
+	<link rel="preconnect" href="https://tiles.openfreemap.org" />
+</svelte:head>
+
 <div id="map" style="position:absolute;inset:0;width:100%;height:100%;"></div>
+
+<div class="map-loader" class:ready={$mapReady}>
+	<div class="spinner"></div>
+</div>
+
+<style>
+	.map-loader {
+		position: absolute;
+		inset: 0;
+		background: #0d0d0d;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 10;
+		opacity: 1;
+		transition: opacity 0.6s ease;
+		pointer-events: auto;
+	}
+
+	.map-loader.ready {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	.spinner {
+		width: 36px;
+		height: 36px;
+		border: 3px solid rgba(200, 134, 10, 0.2);
+		border-top-color: #c8860a;
+		border-radius: 50%;
+		animation: spin 0.8s linear infinite;
+	}
+
+	@keyframes spin {
+		to { transform: rotate(360deg); }
+	}
+</style>

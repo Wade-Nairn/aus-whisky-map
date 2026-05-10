@@ -1,7 +1,7 @@
 <script>
 	import Map from '$lib/components/Map.svelte';
 	import Sidebar from '$lib/components/Sidebar.svelte';
-	import { sidebarOpen } from '$lib/stores/map.js';
+	import { sidebarOpen, mapReady } from '$lib/stores/map.js';
 
 	let { data } = $props();
 </script>
@@ -19,7 +19,7 @@
 	<!-- Site title — fixed, always visible over the map -->
 	<h1
 		class="fixed top-4 left-4 z-30 pointer-events-none leading-none"
-		style="font-family: 'Satisfy', cursive; font-size: 1.75rem; color: #000; text-shadow: 0 1px 8px rgba(255,255,255,0.4);"
+		style="font-family: 'Satisfy', cursive; font-size: 1.75rem; color: {$mapReady ? '#000' : '#fff'}; text-shadow: 0 1px 8px rgba(255,255,255,0.4); transition: color 0.6s ease;"
 	>
 		<span style="position: relative; display: inline-block; padding-bottom: 2px;">
 			Aus Whisky Map
